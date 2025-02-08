@@ -19,3 +19,15 @@ class Drone {
         }
     }
 }
+
+class LightDrone extends Drone {
+    public LightDrone(String id) {
+        super(id, 50);
+    }
+}
+
+class HeavyDrone extends Drone {
+    public HeavyDrone(String id) {
+        super(id, 200);
+    }
+}
